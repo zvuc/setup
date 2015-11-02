@@ -1,0 +1,20 @@
+{
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
+	"draw_minimap_border": true,
+	"folder_exclude_patterns":
+	[
+		"bower_components",
+		"node_modules",
+		".git"
+	],
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"CSS",
+		"Vintage"
+	],
+	"predawn_quick_panel_small": true,
+	"predawn_sidebar_medium": true,
+	"predawn_tabs_medium": true,
+	"theme": "predawn-DEV.sublime-theme"
+}
