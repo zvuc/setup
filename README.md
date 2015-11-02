@@ -13,5 +13,5 @@ Links and preferences for quick setup of personal development environment
   - [GitGutter](https://github.com/jisaacks/GitGutter)
   - [SidebarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 4. Remove Package "CSS"
-5. Copy personal preferences file (Preferences.sublime-settings)
+5. Copy personal preferences file ([Preferences.sublime-settings](/Preferences.sublime-settings))
 
