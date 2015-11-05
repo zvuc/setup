@@ -2,10 +2,11 @@
 Links and preferences for quick setup of personal development environment
 
 ## Heavily borrowed from following pages
-- http://sourabhbajaj.com/mac-setup/Homebrew/README.html
+- Mac - http://sourabhbajaj.com/mac-setup/Homebrew/README.html
+- Windows - https://scotch.io/tutorials/get-a-functional-and-sleek-console-in-windows
 - https://github.com/mdo/config
 
-## Setup Mac OS X Terminal
+## Setup Mac OS X
 - Install XCode from App Store
 - Install XCode command line tools `xcode-select --install`
 - Homebrew
@@ -20,6 +21,16 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ```
 - Set Oh-my-zsh as default shell `chsh -s /bin/zsh`
 - Install [Ocean theme](https://github.com/mdo/ocean-terminal) for terminal
+
+
+## Setup Windows
+- Install [Git](https://git-scm.com/download/win)
+- Install [ConEmu](https://conemu.github.io/)
+- Choose `{Bash::Git bash}` as startup task on inital launch config
+- Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
+- Copy [`.bash_profile`](.bash_profile) to User home directory (`%HOMEPATH`)
+- If needed, add a line in bash profile to fast navigate to default dev directory `cd f:/dev`
+- Reload bash profile `source ~/.bash_profile`
 
 
 ## Dev dependencies
