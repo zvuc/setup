@@ -13,3 +13,7 @@ export PS1="\n\[$(tput bold)\]\[$(tput setaf 5)\]➜ \[$(tput setaf 6)\]\w\[$(tp
 # Set PATH
 export PATH="$PATH:/usr/local/bin/"
 export PATH="/usr/local/git/bin:/sw/bin/:/usr/local/:/usr/local/sbin:$PATH"
+
+# Only for Windows
+alias subl="C:/Program\ Files/Sublime\ Text\ 3/subl.exe"
+cd f:/dev
