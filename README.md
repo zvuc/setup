@@ -13,13 +13,13 @@ Links and preferences for quick setup of personal development environment
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-- Load [`.bash_profile`](.bash_profile)
 - zsh  `brew install zsh zsh-completions`
 - Oh-my-zsh
 ```
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 - Set Oh-my-zsh as default shell `chsh -s /bin/zsh`
+- Copy [`.zshrc`](.zshrc) contents
 - Install [Ocean theme](https://github.com/mdo/ocean-terminal) for terminal
 
 
@@ -35,6 +35,10 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 ## Dev dependencies
 - [NodeJS](https://nodejs.org/en/download/)
+- [nvm](https://github.com/creationix/nvm)
+```
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | bash
+```
 - Grunt `npm install -g grunt-cli`
 
 
