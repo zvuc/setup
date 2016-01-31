@@ -34,11 +34,11 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 
 ## Dev dependencies
-- [NodeJS](https://nodejs.org/en/download/)
-- [nvm](https://github.com/creationix/nvm) (ONLY FOR MAC)
+- [nvm](https://github.com/creationix/nvm) (Mac)
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | bash
 ```
+- [nvm-windows](https://github.com/coreybutler/nvm-windows) (Windows Installer)
 - Grunt `npm install -g grunt-cli`
 
 
