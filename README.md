@@ -55,3 +55,12 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | b
   - [SidebarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 - Remove Package "CSS"
 - Copy personal preferences file ([Preferences.sublime-settings](/Preferences.sublime-settings))
+
+## SSH key generation
+- Remove existing remote and add SSH address instead (if needed)
+  `git remote rm origin` `git remote add origin git@github.com:{repoowner}/{reponame}.git` 
+- Generate new key (default path, no passphrase)
+  `ssh-keygen -t rsa`
+- View key contents
+  `cat ~/.ssh/id_rsa.pub`
+- Copy and add as new key in GitHub (https://github.com/settings/keys)
