@@ -22,6 +22,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ## Setup Windows
 <details>
   <summary>Click to expand!</summary>
+  
 - Install [Git](https://git-scm.com/download/win)
 - Install [ConEmu](https://conemu.github.io/)
 - Choose `{Bash::Git bash}` as startup task on inital launch config
@@ -29,6 +30,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 - Copy [`.bash_profile`](.bash_profile) to User home directory (`%HOMEPATH`)
 - If needed, add a line in bash profile to fast navigate to default dev directory `cd f:/dev`
 - Reload bash profile `source ~/.bash_profile`
+  
 </details>
 
 
