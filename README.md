@@ -6,19 +6,15 @@ Links and preferences for quick setup of personal development environment
 - Windows - https://scotch.io/tutorials/get-a-functional-and-sleek-console-in-windows
 - https://github.com/mdo/config
 
-## Setup Mac OS X
-- Install XCode from App Store
-- Install XCode command line tools `xcode-select --install`
+## Setup macOS (Big Sur and newer)
 - Homebrew
 ```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)")"
 ```
-- zsh  `brew install zsh zsh-completions`
 - Oh-my-zsh
 ```
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-- Set Oh-my-zsh as default shell `chsh -s /bin/zsh`
 - Copy [`.zshrc`](.zshrc) contents
 - Install [Ocean theme](https://github.com/mdo/ocean-terminal) for terminal
 
