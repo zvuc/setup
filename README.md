@@ -20,6 +20,8 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 
 ## Setup Windows
+<details>
+  <summary>Click to expand!</summary>
 - Install [Git](https://git-scm.com/download/win)
 - Install [ConEmu](https://conemu.github.io/)
 - Choose `{Bash::Git bash}` as startup task on inital launch config
@@ -27,6 +29,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 - Copy [`.bash_profile`](.bash_profile) to User home directory (`%HOMEPATH`)
 - If needed, add a line in bash profile to fast navigate to default dev directory `cd f:/dev`
 - Reload bash profile `source ~/.bash_profile`
+</details>
 
 
 ## Dev dependencies
@@ -39,17 +42,16 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 
 
 ## Sublime Text
-- Install Sublime Text 3 [[Link](http://www.sublimetext.com/3)]
-- Install Package Control [[Link](https://packagecontrol.io/installation)]
+- Install Sublime Text 4 [[Link](http://www.sublimetext.com)]
+- Install Package Control (`Cmd+Shift+P` > `Install Package Control`)
 - Install packages through Package Control
-  - [Predawn](https://github.com/jamiewilson/predawn)
-  - [Tomorrow Color Schemes](https://github.com/theymaybecoders/sublime-tomorrow-theme/)
-  - [CSS3](https://github.com/y0ssar1an/CSS3)
+  - [Ayu](https://github.com/dempfi/ayu)
   - [LESS](https://github.com/danro/LESS-sublime/)
   - [Emmet](https://github.com/sergeche/emmet-sublime/)
   - [GitGutter](https://github.com/jisaacks/GitGutter)
   - [SidebarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
-- Remove Package "CSS"
+  - [Color Highlight](https://github.com/Kronuz/ColorHighlight)
+  - [Color Convert](https://github.com/zhouyuexie/ColorConvert)
 - Copy personal preferences file ([Preferences.sublime-settings](/Preferences.sublime-settings))
 
 ## SSH key generation
